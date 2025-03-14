@@ -1,3 +1,4 @@
+/* For deciding when to display desktop vs mobile navigation menu */
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;

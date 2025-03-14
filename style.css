@@ -52,10 +52,11 @@ a {
 }
 
 a:hover {
+    /* Mouse hover over links in navigation bar */
     color: gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181);
+    text-decoration-color: rgb(180, 180, 180);
 }
 
 .logo {
@@ -95,6 +96,11 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
+.hamburger-icon:hover span {
+    /* Mouse hover over Hamburger icon */
+    background-color: gray;
+}
+
 .menu-links {
     position: absolute;
     top: 100%;
@@ -114,6 +120,11 @@ a:hover {
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
+}
+
+.menu-links a:hover {
+    /* Mouse hover over links in Hamburger */
+    color: gray;
 }
 
 .menu-links li {
