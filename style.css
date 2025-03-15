@@ -152,7 +152,7 @@ a:hover {
 section {
     padding-top: 5vh;
     height: 95vh;
-    margin: 0, 10rem;
+    margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -233,7 +233,7 @@ section {
 
 .btn-color-1, 
 .btn-color-2 {
-    border: rgb(38, 69, 38), 0.1rem, solid;
+    border: rgb(38, 69, 38), 0.1rem solid;
 }
 
 .btn-color-2 {
@@ -278,16 +278,16 @@ section {
 
 .arrow {
     position: absolute;
-    right: 5rem;
+    right: -5rem;
     bottom: 2.5rem;
 }
 
 .details-container {
-    padding: 1rem;;
+    padding: 1.5rem;
     flex: 1;
     background-color: white;
     border-radius: 2rem;
-    border: rgb(38, 69, 38) 0.1rem solid;
+    border: rgb(38, 69, 38) 0.15rem solid;
     text-align: center;
 }
 
