@@ -378,3 +378,7 @@ article {
     text-decoration: underline;
     text-decoration-style:double;
 }
+
+article .icon {
+    cursor: default;
+}
