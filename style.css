@@ -146,3 +146,106 @@ a:hover {
 .hamburger-icon.open span:last-child {
     transform: rotate(-45deg) translate(10px, -5px);
 }
+
+/* SECTIONS */
+
+section {
+    padding-top: 5vh;
+    height: 95vh;
+    margin: 0, 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container {
+    display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section__pic-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text {
+    align-self: center;
+    text-align: center;
+}
+
+.section__text p {
+    font-weight: 600;
+}
+
+.section__text__p1 {
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.section__text__p2 {
+    margin-bottom: .75rem;
+}
+
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    border-radius: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: medium;
+    transition: 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+}
+
+.btn-color-1, 
+.btn-color-2 {
+    border: rgb(38, 69, 38), 0.1rem, solid;
+}
+
+.btn-color-2 {
+    background-color: rgb(38, 69, 38);
+    color: rgb(159, 223, 159);
+}
+
+.btn-color-1:hover {
+    background-color: rgb(159, 223, 159);
+}
+
+.btn-color-2:hover {
+    background-color: rgb(159, 223, 159);
+    color: rgb(38, 69, 38);
+}

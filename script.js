@@ -5,3 +5,21 @@ function togglemenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+// Open my linkedin using a new tab
+function openLinkedinNewTab() {
+    window.open(
+        "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit", 
+        "_blank", 
+        "noreferrer noopener"
+    )
+}
+
+// Open my linkedin using a new tab
+function openGitHubinNewTab() {
+    window.open(
+        "https://github.com/RodillasJavier", 
+        "_blank", 
+        "noreferrer noopener"
+    )
+}

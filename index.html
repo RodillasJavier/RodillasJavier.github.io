@@ -24,6 +24,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+
     </nav>
 
     <!-- Mobile Navigation -->
@@ -50,8 +51,53 @@
 
         </div>
 
-    </div>
     </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+
+        <!-- Main picture of myself -->
+        <div class="section__pic-container">
+            <img src="./assets/about-pic.png" alt="Javier A. Rodillas profile picture">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1"> Hello, I'm </p>
+            <h1 class="title"> Javier A. Rodillas </h1>
+            <p class="section__text__p2"> Software Developer </p>
+
+            <!-- Resume & Contact information buttons -->
+            <div class="btn-container">
+                <button 
+                    class="btn btn-color-1" 
+                    onclick="window.open('./assets/Javier_Rodillas_Resume.pdf')"
+                > 
+                    View CV 
+                </button>
+
+                <button
+                    class="btn btn-color-2"
+                    onclick="location.href=('#contact')"
+                >
+                    Contact Me
+                </button>
+            </div>
+
+            <!-- linkedin & GitHub buttons -->
+            <div id="socials-container">
+                <img src="./assets/linkedin.png"
+                alt="My linkedin profile"
+                class="icon"
+                onclick="openLinkedinNewTab()">
+
+                <img src="./assets/github.png"
+                alt="My GitHub profile"
+                class="icon"
+                onclick="openGitHubinNewTab()">
+            </div>
+        </div>
+
+    </section>
 
     <!-- Script -->
     <script src="script.js"></script>
