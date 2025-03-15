@@ -33,10 +33,18 @@ nav,
     display: flex;
 }
 
+.nav-background {
+    background-color: white;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 
 .nav-links {
@@ -51,7 +59,7 @@ a {
     text-decoration-color: white;
 }
 
-a:hover {
+.nav-links a:hover {
     /* Mouse hover over links in navigation bar */
     color: gray;
     text-decoration: underline;

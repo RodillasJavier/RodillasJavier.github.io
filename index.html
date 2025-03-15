@@ -11,47 +11,51 @@
 
 <body>
     <!-- Desktop navigation -->
-    <nav id="desktop-nav">
+    <div class="nav-background">
+        <nav id="desktop-nav">
 
-        <!-- Using My name as a logo for now... maybe design one later? -->
-        <div class="logo">Javier A. Rodillas</div>
-        
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+            <!-- Using My name as a logo for now... maybe design one later? -->
+            <div class="logo"><a href="#profile">Javier A. Rodillas</a></div>
+            
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
 
-    </nav>
+        </nav>
+    </div>
 
     <!-- Mobile Navigation -->
-    <nav id="hamburger-nav">
+    <div class="nav-background">
+        <nav id="hamburger-nav">
 
-        <!-- Using My name as a logo for now... maybe design one later? -->
-        <div class="logo">Javier A. Rodillas</div>
-        
-        <div class="hamburger-menu">
+            <!-- Using My name as a logo for now... maybe design one later? -->
+            <div class="logo">Javier A. Rodillas</div>
+            
+            <div class="hamburger-menu">
 
-            <div class="hamburger-icon" onclick="togglemenu()">
-                <!-- This is our hamburger icon -->
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="hamburger-icon" onclick="togglemenu()">
+                    <!-- This is our hamburger icon -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+                </div>
+
             </div>
 
-            <div class="menu-links">
-                <li><a href="#about" onclick="togglemenu()">About</a></li>
-                <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
-                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
-                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
-            </div>
-
-        </div>
-
-    </nav>
+        </nav>
+    </div>
 
     <!-- Profile Section -->
     <section id="profile">
@@ -111,6 +115,8 @@
 
     <!-- About Section -->
     <section id="about">
+        
+        <!-- Title -->
         <p class="section__text__p1">Get to know more</p>
         <h1 class="title">About Me</h1>
 
@@ -157,12 +163,13 @@
                 <!-- Word Blurb -->
                 <div class="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Rem incidunt maiores nulla dolor et odit nihil est ea 
-                        error quaerat numquam eos obcaecati illo cumque omnis 
-                        tempora earum, a aperiam ullam quae sunt alias esse sint 
-                        suscipit. Quisquam alias debitis natus tempora architecto 
-                        aliquam totam sed officia, tenetur, repellendus facere.
+                        Computer Science student at Dartmouth College with 
+                        experience in Java, JavaScript, HTML, CSS, Python, 
+                        and C. Strong foundation in data structures, 
+                        algorithms, object-oriented programming, and system 
+                        design principles. Passionate about applying my 
+                        technical skills to create impactful solutions and 
+                        am eager to further expand my skill set. 
                     </p>
                 </div>
 
@@ -179,7 +186,49 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience"></section>
+    <section id="experience">
+        
+        <!-- Title -->
+        <p class="section__text__p1">Explore my</p>
+        <h1 class="title">Experience</h1>
+
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+
+                    <h2 class="experience-sub-title">Languages</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img 
+                                src="./assets/checkmark.png" 
+                                alt="Experience Icon"
+                                class="icon"
+                            />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
     
     <!-- Projects Section -->
     <section id="projects"></section>
