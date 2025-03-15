@@ -1,6 +1,14 @@
 /* GENERAL */
+/* GENERAL */
+/* GENERAL */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --light-green: rgb(159, 223, 159);
+    --dark-green: rgb(38, 69, 38);
+    --gray: rgb(85, 85, 85);
+}
 
 * {
     margin: 0;
@@ -16,11 +24,13 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: var(--gray);
 }
 
 
 
+/* TRANSITION */
+/* TRANSITION */
 /* TRANSITION */
 
 a, 
@@ -39,6 +49,7 @@ nav,
     position: fixed;
     width: 100%;
     z-index: 100;
+    border-bottom: 0.1rem solid var(--dark-green)
 }
 
 nav {
@@ -64,7 +75,7 @@ a {
     color: gray;
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(180, 180, 180);
+    text-decoration-color: lightgray;
 }
 
 .logo {
@@ -77,6 +88,8 @@ a {
 
 
 
+/* HAMBURGER */
+/* HAMBURGER */
 /* HAMBURGER */
 
 #hamburger-nav {
@@ -155,6 +168,10 @@ a {
     transform: rotate(-45deg) translate(10px, -5px);
 }
 
+
+
+/* SECTIONS */
+/* SECTIONS */
 /* SECTIONS */
 
 section {
@@ -169,6 +186,10 @@ section {
     display: flex;
 }
 
+
+
+/* PROFILE SECTION */
+/* PROFILE SECTION */
 /* PROFILE SECTION */
 
 #profile {
@@ -215,12 +236,21 @@ section {
     gap: 1rem;
 }
 
+
+
 /* ICONS */
+/* ICONS */
+/* ICONS */
+
 .icon {
     cursor: pointer;
     height: 2rem;
 }
 
+
+
+/* BUTTONS */
+/* BUTTONS */
 /* BUTTONS */
 
 .btn-container {
@@ -241,26 +271,29 @@ section {
 
 .btn-color-1, 
 .btn-color-2 {
-    border: rgb(38, 69, 38), 0.1rem solid;
+    border: var(--dark-green), 0.1rem solid;
 }
 
 .btn-color-2 {
-    background-color: rgb(38, 69, 38);
-    color: rgb(159, 223, 159);
+    background-color: var(--dark-green);
+    color: var(--light-green);
 }
 
 .btn-color-1:hover {
-    background-color: rgb(159, 223, 159);
+    background-color: var(--light-green);
 }
 
 .btn-color-2:hover {
-    background-color: rgb(159, 223, 159);
-    color: rgb(38, 69, 38);
+    background-color: var(--light-green);
+    color: var(--dark-green);
 }
 
 
 
 /* ABOUT SECTION */
+/* ABOUT SECTION */
+/* ABOUT SECTION */
+
 #about {
     position: relative;
 }
@@ -295,7 +328,7 @@ section {
     flex: 1;
     background-color: white;
     border-radius: 2rem;
-    border: rgb(38, 69, 38) 0.15rem solid;
+    border: var(--dark-green) 0.15rem solid;
     text-align: center;
 }
 
@@ -310,7 +343,12 @@ section {
     margin: auto 0;
 }
 
+
+
 /* EXPERIENCE SECTION */
+/* EXPERIENCE SECTION */
+/* EXPERIENCE SECTION */
+
 #experience {
     position: relative;
 }
