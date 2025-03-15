@@ -58,7 +58,10 @@
 
         <!-- Main picture of "myself" -->
         <div class="section__pic-container">
-            <img src="./assets/about-pic.png" alt="Javier A. Rodillas profile picture">
+            <img 
+            src="./assets/profile-pic.png" 
+            alt="Javier A. Rodillas profile picture"
+            />
         </div>
         
         <!-- Greeting & Introduction Text -->
@@ -69,6 +72,7 @@
 
             <!-- Resume & Contact information buttons -->
             <div class="btn-container">
+                <!-- 'View Resume' button -->
                 <button 
                     class="btn btn-color-1" 
                     onclick="window.open('./assets/Javier_Rodillas_Resume.pdf')"
@@ -76,6 +80,7 @@
                     View CV 
                 </button>
 
+                <!-- 'Contact Me' button -->
                 <button
                     class="btn btn-color-2"
                     onclick="location.href=('#contact')"
@@ -86,19 +91,101 @@
 
             <!-- Social Buttons -->
             <div id="socials-container">
+                <!-- linkedin -->
                 <img src="./assets/linkedin.png"
                 alt="My linkedin profile"
                 class="icon"
-                onclick="openLinkedinNewTab()">
+                onclick="openLinkedinNewTab()"
+                />
 
+                <!-- GitHub -->
                 <img src="./assets/github.png"
                 alt="My GitHub profile"
                 class="icon"
-                onclick="openGitHubinNewTab()">
+                onclick="openGitHubinNewTab()"
+                />
             </div>
         </div>
 
     </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+
+            <!-- Picture of 'myself' -->
+            <div class="section__pic-container">
+                <img 
+                    src="./assets/about-pic.png" 
+                    alt="Profile Picture"
+                    class="about-pic"
+                />
+            </div>
+
+            <div class="about-details-container">
+
+                <div class="about-containers">
+                    <!-- Experience -->
+                    <div class="details-container">
+                        <img 
+                            src="./assets/experience.png" 
+                            alt="Experience Icon"
+                            class="icon"
+                        />
+
+                        <h3>Experience</h3>
+                        <p>3+ Years <br /> Dartmouth Climbing Gym Manager</p>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div class="details-container">
+                        <img 
+                            src="./assets/education.png" 
+                            alt="Education Icon" 
+                            class="icon"
+                        />
+
+                        <h3>Education</h3>
+                        <p>Dartmouth College <br /> B.Sc. Computer Science</p>
+                    </div>
+
+                </div>
+
+                <!-- Word Blurb -->
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem 
+                        incidunt maiores nulla dolor et odit nihil est ea error quaerat 
+                        numquam eos obcaecati illo cumque omnis tempora earum, a aperiam 
+                        ullam quae sunt alias esse sint suscipit. Quisquam alias debitis 
+                        natus tempora architecto aliquam totam sed officia, tenetur, 
+                        repellendus facere.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Shortcut to the next section of the page... -->
+            <img 
+                src="./assets/arrow.png" 
+                alt="Arrow Icon" 
+                class="icon arrow"
+                onclick="location.href='./#experience'"
+            />
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience"></section>
+    
+    <!-- Projects Section -->
+    <section id="projects"></section>
+    
+    <!-- Contact Section -->
+    <section id="contact"></section>
 
     <!-- Script -->
     <script src="script.js"></script>

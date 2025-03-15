@@ -249,3 +249,55 @@ section {
     background-color: rgb(159, 223, 159);
     color: rgb(38, 69, 38);
 }
+
+
+
+/* ABOUT SECTION */
+#about {
+    position: relative;
+}
+
+.about-containers {
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-containers , 
+.about-details-container {
+    display: flex;
+}
+
+.about-pic {
+    border-radius: 2rem;
+}
+
+.arrow {
+    position: absolute;
+    right: 5rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    padding: 1rem;;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: rgb(38, 69, 38) 0.1rem solid;
+    text-align: center;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
