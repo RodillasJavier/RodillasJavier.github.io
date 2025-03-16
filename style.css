@@ -8,6 +8,7 @@
 :root {
     --light-green: rgb(159, 223, 159);
     --dark-green: rgb(38, 69, 38);
+    --very-light-green: rgb(237, 251, 237);
     --gray: rgb(85, 85, 85);
 }
 
@@ -72,7 +73,7 @@ a {
     text-decoration-color: white;
 }
 
-.nav-links a:hover {
+a:hover {
     /* Mouse hover over links in navigation bar */
     color: gray;
     text-decoration: underline;
@@ -408,7 +409,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: auto;
 }
 
 .contact-info-upper-container {
@@ -417,7 +418,7 @@ article .icon {
     border-radius: 2rem;
     border: var(--dark-green) 0.25rem solid;
     box-shadow: .1rem .1rem .5rem var(--dark-green);
-    background: var(--light-green);
+    background: var(--very-light-green);
     margin: 2rem auto;
     padding: 0.5rem;
 }
@@ -439,4 +440,18 @@ article .icon {
     align-self: center;
     height: 3rem;
     width: 3rem;
+}
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+footer {
+    height: 15vh;
+}
+
+footer p {
+    text-align: center;
 }
