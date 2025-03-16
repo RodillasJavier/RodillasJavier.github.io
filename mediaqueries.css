@@ -123,4 +123,16 @@
     .text-container {
       text-align: justify;
     }
+
+    .profile-pic {
+        width: 100%;
+        height: fit-content;
+        padding: 2rem;
+    }
+
+    .about-pic {
+        width: 100%;
+        height: fit-content;
+        padding: 2rem;
+    }
   }

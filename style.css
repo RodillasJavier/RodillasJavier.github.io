@@ -187,7 +187,7 @@ a:hover {
 
 section {
     padding-top: var(--nav-height);
-    height: 92.5vh;
+    height: var(--section-height);
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -208,6 +208,12 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+}
+
+.profile-pic {
+    border-radius: 2rem;
+    width: 27.5rem;
+    height: fit-content;
 }
 
 .section__pic-container {
@@ -326,6 +332,8 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    width: 25rem;
+    height: fit-content;
 }
 
 .arrow {
