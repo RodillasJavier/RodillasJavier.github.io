@@ -47,8 +47,8 @@
     }
 
     .section-pic-container {
-        width: 275%;
-        height: 275%;
+        width: 100%;
+        height: auto;
         margin: 0 auto 2rem;
     }
 
@@ -102,9 +102,10 @@
     }
 
     .section__pic-container {
-      width: auto;
-      height: 50vh;
+      width: 100%;
+      height: auto;
       justify-content: center;
+      margin: 1rem auto 2rem auto;
     }
 
     .section__text__p2 {
@@ -126,13 +127,13 @@
 
     .profile-pic {
         width: 100%;
-        height: fit-content;
-        padding: 2rem;
+        height: auto;
+        border-radius: 0;
     }
 
     .about-pic {
         width: 100%;
-        height: fit-content;
-        padding: 2rem;
+        height: auto;
+        border-radius: 0;
     }
   }
