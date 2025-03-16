@@ -115,7 +115,7 @@ a {
     width: 100%;
     height: 2px;
     background-color: black;
-    transition: all 0.3 ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 .hamburger-icon:hover span {
@@ -124,14 +124,17 @@ a {
 }
 
 .menu-links {
+    opacity: 0;     /* Have hamburger menu become visible once clicked */
     position: absolute;
     top: 100%;
     right: 0%;
     background-color: white;
+    border-radius: 2rem;
+    border: var(--dark-green) 0.15rem solid;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
-    transition: all 0.3 ease-in-out;
+    transition: all .15s ease-in-out;
 }
 
 .menu-links a {
@@ -141,7 +144,7 @@ a {
     font-size: 1.5rem;
     color: black;
     text-decoration: none;
-    transition: all 0.3 ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu-links a:hover {
@@ -153,10 +156,13 @@ a {
     list-style: none;
 }
 
+/* Action for opening hamburger */
 .menu-links.open {
+    opacity: 1;
     max-height: 300px;
 }
 
+/* Turning the Hamburger into an X upon clicking on it */
 .hamburger-icon.open span:first-child { 
     transform: rotate(45deg) translate(10px, 5px);
 }
@@ -329,7 +335,8 @@ section {
     flex: 1;
     background-color: white;
     border-radius: 2rem;
-    border: var(--dark-green) 0.15rem solid;
+    border: var(--dark-green) 0.25rem solid;
+    box-shadow: .1rem .1rem .5rem var(--dark-green);
     text-align: center;
 }
 
@@ -378,6 +385,8 @@ article {
 
 .experience-sub-title {
     margin-bottom: 2.5rem;
+    font-weight: 600;
+    font-size: 2rem;
     text-decoration: underline;
     text-decoration-style:double;
 }
