@@ -211,6 +211,7 @@ section {
     border-radius: 2rem;
     width: 27.5rem;
     height: fit-content;
+    box-shadow: .1rem .1rem .5rem var(--dark-green);
 }
 
 .section__pic-container {
@@ -331,6 +332,7 @@ section {
     border-radius: 2rem;
     width: 25rem;
     height: fit-content;
+    box-shadow: .1rem .1rem .5rem var(--dark-green);
 }
 
 .arrow {
