@@ -10,6 +10,8 @@
     --dark-green: rgb(38, 69, 38);
     --very-light-green: rgb(237, 251, 237);
     --gray: rgb(85, 85, 85);
+    --nav-height: 7.5vh;        /* These should */   
+    --section-height: 92.5vh;   /* sum to 100vh */
 }
 
 * {
@@ -58,7 +60,7 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 10vh;
+    height: var(--nav-height);
 }
 
 .nav-links {
@@ -184,8 +186,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 5vh;
-    height: 95vh;
+    padding-top: var(--nav-height);
+    height: 92.5vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -375,10 +377,10 @@ article {
 .article-container {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
-    /* text-align: inherit; */
-    gap: 2.5rem;
-    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: initial;
+    gap: 2rem;
+    justify-content: space-around;
 }
 
 .experience-details-container {
