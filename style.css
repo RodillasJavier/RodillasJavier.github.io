@@ -362,7 +362,7 @@ section {
     margin: auto 0;
 }
 
-#about .icon {
+.about-icon {
     /* icons in about section */
     cursor: default;
 }
