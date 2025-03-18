@@ -376,7 +376,7 @@ article {
     align-items: center;
     display: flex;
     text-align: initial;
-    justify-content:space-between;
+    justify-content: left;
     gap: 0.5rem;
     width: 10rem;
 }
