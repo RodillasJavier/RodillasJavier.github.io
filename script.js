@@ -9,7 +9,7 @@ function togglemenu() {
 // Open my linkedin using a new tab
 function openLinkedinNewTab() {
     window.open(
-        "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit", 
+        "https://www.linkedin.com/in/rodillasjavier/", 
         "_blank", 
         "noreferrer noopener"
     )
