@@ -362,6 +362,11 @@ section {
     margin: auto 0;
 }
 
+#about .icon {
+    /* icons in about section */
+    cursor: default;
+}
+
 
 
 /* EXPERIENCE SECTION */
